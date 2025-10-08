@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/RecipeFood/static/css/main.fb665e37.css",
+    "main.js": "/RecipeFood/static/js/main.9f0facdf.js",
+    "static/js/453.e57bb894.chunk.js": "/RecipeFood/static/js/453.e57bb894.chunk.js",
+    "index.html": "/RecipeFood/index.html",
+    "main.fb665e37.css.map": "/RecipeFood/static/css/main.fb665e37.css.map",
+    "main.9f0facdf.js.map": "/RecipeFood/static/js/main.9f0facdf.js.map",
+    "453.e57bb894.chunk.js.map": "/RecipeFood/static/js/453.e57bb894.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb665e37.css",
+    "static/js/main.9f0facdf.js"
+  ]
+}
