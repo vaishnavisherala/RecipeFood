@@ -106,16 +106,7 @@ const Home = () => {
     ))}
   </div>
 </div>
-      <NavLink
-        to="/Pratice"
-        style={{
-          color: "red",
-          fontWeight: "bold",
-          textDecoration: "none",
-        }}
-      >
-        Message
-      </NavLink>
+      
 
       <Row>
         {/* Sidebar */}
