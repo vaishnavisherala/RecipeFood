@@ -5,41 +5,7 @@ import RecipeDetails from "../components/RecipeDetails";
 import Pratice from "../components/Pratice";
 import About from "../components/About"
 import Contact from "../components/Contact";
- const items = [
-  {
-    id: 1,
-    name: "Tuscan White Bean Soup",
-    difficulty: "Intermediate",
-    time: "0.85 hrs",
-    servings: 5,
-    author: "Thomas Keller",
-    ingredient: "Beans, Olive oil, Garlic",
-    category: "Veg",
-    image: "https://source.unsplash.com/400x300/?soup"
-  },
-  {
-    id: 2,
-    name: "Honey Glazed Salmon soup",
-    difficulty: "Advanced",
-    time: "1.57 hrs",
-    servings: 7,
-    author: "Julia Child",
-    ingredient: "Salmon, Honey, Soy sauce",
-    category: "Non-Veg",
-    image: "https://source.unsplash.com/400x300/?salmon"
-  },
-  {
-    id: 3,
-    name: "Cheesy Broccoli Casserole",
-    difficulty: "Advanced",
-    time: "1.28 hrs",
-    servings: 3,
-    author: "Thomas Keller",
-    ingredient: "Broccoli, Cheese, Milk, Butter",
-    category: "Veg",
-    image: "https://source.unsplash.com/400x300/?broccoli"
-  }
-];
+ 
 
 
 const Nav = () => {
@@ -109,8 +75,8 @@ const AppNavigator = () => {
     <BrowserRouter>
     <Nav/>  
     <Routes>
-<Route path="/" element={<Home items={items}/>}></Route>
-<Route path="/Recipe/:id" element={<RecipeDetails items={items}/>}></Route>
+<Route path="/" element={<Home/>}></Route>
+<Route path="/Recipe/:id" element={<RecipeDetails/>}></Route>
 <Route path="/Pratice" element={<Pratice/>}></Route>
 <Route path="/About" element={<About/>}></Route>
 <Route path="/Contact" element={<Contact/>}></Route>
